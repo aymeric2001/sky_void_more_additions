@@ -44,7 +44,7 @@
               "type": "minecraft:score",
               "target": {
                 "type": "minecraft:fixed",
-                "name": "sky_void_more_additions"
+                "name": "skyvoid_additions"
               },
               "score": "load.status"
             },
@@ -58,7 +58,7 @@
                 "type": "minecraft:fixed",
                 "name": "calcite_from_dead_coral"
               },
-              "score": "sky_void_more_config"
+              "score": "skyvoid_config"
             },
             "range": 1
           }
@@ -79,6 +79,6 @@
     }
   },
   "rewards": {
-    "function": "sky_void_more_additions/data/sky_void_more_additions/function/mechanics/calcite_from_dead_coral/summon_marker/placed_lava"
+    "function": "skyvoid_additions:mechanics/calcite_from_dead_coral/summon_marker/placed_lava"
   }
 }
