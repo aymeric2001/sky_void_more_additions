@@ -17,9 +17,6 @@ execute if entity @s[tag=skyvoid_additions_dispenser] positioned ^ ^ ^1 if block
 execute if entity @s[tag=skyvoid_additions_dispenser] positioned ^ ^ ^1 if block ~ ~ ~1 #skyvoid_additions:calcite_from_dead_coral_blocks/converts_to_calcite positioned ~ ~ ~1 unless entity @e[tag=skyvoid_additions_dead_coral_block,distance=..0.5,limit=1] run summon marker ~ ~ ~ {CustomName:'"skyvoid_additions_dead_coral_block"',Tags:["skyvoid_additions_dead_coral_block"]}
 execute if entity @s[tag=skyvoid_additions_dispenser] positioned ^ ^ ^1 if block ~ ~ ~-1 #skyvoid_additions:calcite_from_dead_coral_blocks/converts_to_calcite positioned ~ ~ ~-1 unless entity @e[tag=skyvoid_additions_dead_coral_block,distance=..0.5,limit=1] run summon marker ~ ~ ~ {CustomName:'"skyvoid_additions_dead_coral_block"',Tags:["skyvoid_additions_dead_coral_block"]}
 
-#Let the dead_coral_block merker time to get process (if not it will be process at the next cycle aka 10sec)
-execute run function skyvoid_additions:mechanics/calcite_from_dead_coral/launch_check_surroundings
-
 # kill if block no longer exists
 execute if entity @s[tag=skyvoid_additions_lava] unless block ~ ~ ~ lava run kill @s
 execute if entity @s[tag=skyvoid_additions_dispenser] unless block ~ ~ ~ dispenser run kill @s

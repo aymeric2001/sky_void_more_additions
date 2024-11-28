@@ -12,7 +12,7 @@ execute if entity @s[tag=skyvoid_additions_dead_coral_block] align xyz positione
 execute if entity @s[tag=skyvoid_additions_dead_coral_block] align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~1 lava run scoreboard players add $lava_count skyvoid_additions 1
 execute if entity @s[tag=skyvoid_additions_dead_coral_block] align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~-1 lava run scoreboard players add $lava_count skyvoid_additions 1
 
-# Convert to calcite depending on probability (54% chance every 10sec with 4 lava around)
+# Convert to calcite depending on probability (90% chance every 10sec with 4 lava around, 60% with 2 or 3 lava, 44% with one lava)
 execute if score $lava_count skyvoid_additions matches 4..6 if predicate skyvoid_additions:dead_coral_conversion/four_lava run setblock ~ ~ ~ calcite
 execute if score $lava_count skyvoid_additions matches 2..3 if predicate skyvoid_additions:dead_coral_conversion/two_tree_lava run setblock ~ ~ ~ calcite
 execute if score $lava_count skyvoid_additions matches 1 if predicate skyvoid_additions:dead_coral_conversion/one_lava run setblock ~ ~ ~ calcite
