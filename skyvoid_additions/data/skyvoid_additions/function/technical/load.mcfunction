@@ -30,9 +30,10 @@ schedule clear skyvoid_additions:mechanics/amethyst_geode_creation/clock
 schedule clear skyvoid_additions:mechanics/end_phantoms/clock
 schedule clear skyvoid_additions:mechanics/heavy_core_from_winded_anvil/clock
 schedule clear skyvoid_additions:mechanics/calcite_from_dead_coral/clock
-schedule clear skyvoid_additions:mechanics/deepslate_from_clay/clock
+schedule clear skyvoid_additions:mechanics/deepslate_from_tuff/clock
 schedule clear skyvoid_additions:mechanics/sand_from_gravel/clock
-schedule clear skyvoid_additions:mechanics/tuff_from_basalt/clock
+schedule clear skyvoid_additions:mechanics/sandstone_from_packing_sand/clock
+schedule clear skyvoid_additions:mechanics/tuff_from_magma/clock
 
 # every tick
 execute if score diamonds_from_coal_blocks skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/diamonds_from_coal_blocks/clock 1t replace
@@ -40,9 +41,10 @@ execute if score sand_from_burnt_husks skyvoid_config matches 1 run schedule fun
 execute if score allay_conversion skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/allay_conversion/clock_1t 1t replace
 execute if score heavy_core_from_winded_anvil skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/heavy_core_from_winded_anvil/clock 1t replace
 execute if score breeze_from_frozen_blaze skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/breeze_from_frozen_blaze/clock 1t replace
-execute if score deepslate_from_clay skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/deepslate_from_clay/clock 1t replace
+execute if score deepslate_from_tuff skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/deepslate_from_tuff/clock 1t replace
 execute if score sand_from_gravel skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/sand_from_gravel/clock 1t replace
-execute if score tuff_from_basalt skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/tuff_from_basalt/clock 1t replace
+execute if score sandstone_from_packing_sand skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/sandstone_from_packing_sand/clock 1t replace
+execute if score tuff_from_magma skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/tuff_from_magma/clock 1t replace
 
 # every second
 execute if score allay_conversion skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/allay_conversion/clock_1s 4t replace

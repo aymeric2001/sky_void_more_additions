@@ -1,7 +1,7 @@
 # processes dead coral block markers
 # @s = dead_coral block marker
 # located at @s
-# run from skyvoid_additions:mechanics/calcite_from_dead_coral/detect_coral_from_marker
+# run from skyvoid_additions:mechanics/calcite_from_dead_coral/clock
 scoreboard players set $lava_count skyvoid_additions 0
 
 # Check for lava around the dead coral block

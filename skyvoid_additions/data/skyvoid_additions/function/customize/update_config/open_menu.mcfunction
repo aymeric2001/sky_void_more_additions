@@ -82,9 +82,9 @@ all_settings = [
     "desc": "Dead bushes can be fished as junk in deserts and badlands"
   },  
   {
-    "id": "deepslate_from_clay",
-    "name": "Clay Convert into Deepslate",
-    "desc": "Anvil falling on a clay block touching a magma bloc (at least one of the face of the clay block need to touch the magma block) will convert it into a deepslate block"
+    "id": "deepslate_from_tuff",
+    "name": "Tuff Convert into Deepslate",
+    "desc": "Anvil falling on tuff will convert it into deepslate"
   },
   {
     "id": "diamonds_from_coal_blocks",
@@ -239,12 +239,17 @@ all_settings = [
   {
     "id": "sand_from_gravel",
     "name": "Gravel Convert into Sand",
-    "desc": "Anvil falling on a gravel block will convert it into sand"
+    "desc": "Anvil falling on gravel will convert it into sand"
   },
   {
     "id": "sand_from_husk_kill",
     "name": "Husks Drop Sand",
     "desc": "Husks can drop sand and red sand"
+  },
+  {
+    "id": "sandstone_from_packing_sand",
+    "name": "Sand Convert into Sandstone",
+    "desc": "Anvil falling on sand will convert it into sandstone"
   },
   {
     "id": "shriekers_from_enderman",
@@ -317,9 +322,9 @@ all_settings = [
     "desc": "Players in trial chambers with Bad Omen V can convert shriekers into trial spawners by killing mobs on shriekers above a catalyst"
   },
   {
-    "id": "tuff_from_basalt",
-    "name": "Basalt Convert into Tuff",
-    "desc": "Anvil falling on a basalt block touching a packed ice bloc (at least one of the face of the basalt block need to touch the packed ice block) will convert it into a tuff block"
+    "id": "tuff_from_magma",
+    "name": "Magma block Convert into Tuff",
+    "desc": "A magma block hit by a wind charge will convert into tuff"
   },
   {
     "id": "vaults_from_ominous_raid_captains",

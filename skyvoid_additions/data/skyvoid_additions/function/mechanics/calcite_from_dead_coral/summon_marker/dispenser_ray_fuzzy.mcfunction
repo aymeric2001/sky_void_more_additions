@@ -1,7 +1,7 @@
 # fuzzy ray cast to find dispenser
 # @s = player that placed a dispenser
 # located at @s anchored eyes positioned ^ ^ ^0.X where X = step count
-# run from skyvoid_additions:mechanics/amethyst_geode_creation/summon_marker/placed_dispenser
+# run from skyvoid_additions:mechanics/calcite_from_dead_coral/summon_marker/placed_dispenser
 
 # check adjacent blocks
 execute if score $found skyvoid_additions matches 0 store success score $found skyvoid_additions align xyz positioned ~0.5 ~1.5 ~0.5 if block ~ ~ ~ dispenser run function skyvoid_additions:mechanics/calcite_from_dead_coral/summon_marker/summon_dispenser_marker
