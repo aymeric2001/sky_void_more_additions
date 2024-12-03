@@ -17,3 +17,6 @@ tag @n[tag=skyvoid_additions_wind_marker] add skyvoid_additions_wind_marker_rota
 #ride the wind_charge or breeze_wind_charge to get its impact position
 ride @n[type=marker,tag=skyvoid_additions_wind_marker_rotated] mount @n[type=breeze_wind_charge]
 ride @n[type=marker,tag=skyvoid_additions_wind_marker_rotated] mount @n[type=wind_charge]
+
+#kill the dispenser merker if no dispenser
+execute if entity @s[tag=skyvoid_additions_dispenser] unless block ~ ~ ~ dispenser run kill @s
