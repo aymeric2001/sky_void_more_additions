@@ -46,6 +46,9 @@ execute if score sand_from_gravel skyvoid_config matches 1 run schedule function
 execute if score sandstone_from_packing_sand skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/sandstone_from_packing_sand/clock 1t replace
 execute if score tuff_from_magma skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/tuff_from_magma/clock 1t replace
 
+#once
+execute if score tuff_from_magma skyvoid_config matches 1 run function skyvoid_additions:mechanics/tuff_from_magma/kill_wind_charges_on_launch
+
 # every second
 execute if score allay_conversion skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/allay_conversion/clock_1s 4t replace
 execute if score sweet_berries_from_foxes skyvoid_config matches 1 run schedule function skyvoid_additions:mechanics/sweet_berries_from_foxes/clock 6t replace
