@@ -25,5 +25,6 @@ schedule clear skyvoid_additions:mechanics/deepslate_from_tuff/clock
 schedule clear skyvoid_additions:mechanics/sand_from_gravel/clock
 schedule clear skyvoid_additions:mechanics/sandstone_from_packing_sand/clock
 schedule clear skyvoid_additions:mechanics/tuff_from_magma/clock
+schedule clear skyvoid_additions:mechanics/sandstone_mason_trade/clock
 
 execute if score skyvoid_additions load.status matches 1 run function skyvoid_additions:technical/load

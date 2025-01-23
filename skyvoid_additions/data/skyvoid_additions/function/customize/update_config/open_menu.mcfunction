@@ -252,6 +252,11 @@ all_settings = [
     "desc": "Anvil falling on sand will convert it into sandstone"
   },
   {
+    "id": "sandstone_mason_trade",
+    "name": "Mason Trade Sandstone",
+    "desc": "Mason leveling up to Journeyman level have a chance to sell sandstone and red sandstone"
+  },
+  {
     "id": "shriekers_from_enderman",
     "name": "Shrieker Endermen Spawn",
     "desc": "Endermen can spawn on deepslate tiles holding sculk shriekers that can spawn wardens when placed by the enderman"
@@ -259,7 +264,7 @@ all_settings = [
   {
     "id": "shulkers_from_lightning",
     "name": "Shulkers from Lightning",
-    "desc": "Purpur struck by lightning will convert into a shulker"
+    "desc": "Lightning hiting a lightning rod attached to a purpur block will convert it into a shulker"
   },
   {
     "id": "silverfish_from_lightning",

@@ -73,6 +73,7 @@ execute unless score shulkers_from_lightning skyvoid_config matches 0..1 run sco
 execute unless score sniffer_eggs_from_traders skyvoid_config matches 0..1 run scoreboard players set sniffer_eggs_from_traders skyvoid_config 0
 execute unless score sweet_berries_from_traders skyvoid_config matches 0..1 run scoreboard players set sweet_berries_from_traders skyvoid_config 0
 execute unless score tuff_from_magma skyvoid_config matches 0..1 run scoreboard players set tuff_from_magma skyvoid_config 0
+execute unless score sandstone_mason_trade skyvoid_config matches 0..1 run scoreboard players set sandstone_mason_trade skyvoid_config 0
 
 # additional logic
 scoreboard players set ominous_raid_captains skyvoid_config 0
